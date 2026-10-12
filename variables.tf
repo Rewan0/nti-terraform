@@ -5,9 +5,8 @@ variable "region" {
 
 variable "floci_endpoint" {
   type    = string
-  default = "http://localhost:4566"
+  default = "http://host.docker.internal:4566"
 }
-
 variable "environment" {
   type = string
 }
